@@ -4,5 +4,9 @@ class Hash
     self.each do |key, value|
       arguments.each do |i|
         if i == value
+          array >> key
+        end
+      end
+    end
   end
 end
