@@ -6,7 +6,8 @@ class Hash
         if i == value
           array >> key
         end
-      end
+      ends
     end
+    array
   end
 end
